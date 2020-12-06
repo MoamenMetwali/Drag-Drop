@@ -1,0 +1,95 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#products{
+    background-color: #e8e4e1;
+    float: left;
+    width: 66%;
+    border: black solid;
+    margin: 0 auto;
+}
+
+#cart{
+    float: right;
+    width: 32.5vw;
+    min-height: 0vh;
+    background-color: #ec823a;
+    border: black solid;
+}
+
+
+.product{
+    float: left;
+    width: 32.5%;
+    margin: 1px 1px;
+    background-color: #f9c49a;
+    border: black solid 1px;
+    height: 250px;
+    position: relative;
+}
+
+#inner{
+    margin: auto;
+    width: 95%;
+}
+
+#pName{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+#pPrice{
+    width: 10%;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: white;
+    float: right;
+}
+
+#sNumber{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-weight: bold;
+}
+.items{
+    width: 70%;
+    margin: auto;
+}
+
+.title{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name{
+    padding-left: 20px;
+    float: left;
+    color: white;
+}
+.price{
+    padding-right: 10px;
+    float: right;
+    color: white;
+}
+.cartItem{
+    float: left;
+    width: 100%;
+    margin-top:10px;
+    background-color: #7c3c21;
+    border-radius: 20px;
+    border: grey solid;
+    position: relative;
+}
+.delete{
+    position: absolute;
+    right: 0;
+    border-radius: 100%;
+    background-color: red;
+    border-style: none;
+}

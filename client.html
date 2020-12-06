@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="client.css">
+    <title>Main Page</title>
+</head>
+<body onload="loadClient()">
+    
+    <div id="products">
+        <p class="title">Products</p>
+        <div id="inner">
+
+        </div>
+    </div>
+    <div id="cart" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <p class="title">Cart</p>
+        <div class="items"></div>
+    </div>
+    <script src="main.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

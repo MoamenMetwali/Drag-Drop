@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <title>Admin</title>
+</head>
+<body>
+    <section class="container">
+        <div class="inner">
+            <label for="">Product Name</label><input type="text" id="name"><br>
+            <label for="">Price</label><input type="number" min="1" id="price"><br>
+            <label for="">Stock</label><input type="number" id="stock"><br>
+            <label for="">image</label><input type="url" id="img"><br>
+            <button class="btn" onclick="showData()">Save Product</button>
+            <button class="btn" type="button" onclick="deleteItems()">Clear Products</button>
+            <ul id="productList">
+        
+            </ul>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
